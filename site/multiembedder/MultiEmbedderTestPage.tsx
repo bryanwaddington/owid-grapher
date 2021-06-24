@@ -43,7 +43,7 @@ export const MultiEmbedderTestPage = (
                         style={style}
                         {...{
                             [GRAPHER_EMBEDDED_FIGURE_ATTR]:
-                                "http://localhost:3030/grapher/total-shark-attacks-per-year",
+                                "http://localhost:3030/grapher/my-new-chart?country=~GBR",
                         }}
                     />
                     <h1>
