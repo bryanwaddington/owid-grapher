@@ -1,0 +1,1 @@
+{"version":3,"file":"cleanup.d.ts","sourceRoot":"","sources":["../../db/cleanup.ts"],"names":[],"mappings":"AAAA,aAAK,OAAO,GAAG,MAAM,GAAG,CAAA;AAGxB,eAAO,MAAM,OAAO,QAAa,QAAQ,OAAO,EAAE,CACnB,CAAA;AAE/B,eAAO,MAAM,IAAI,QAAa,QAAQ,KAAK,CAQ1C,CAAA;AAED,eAAO,MAAM,mBAAmB,OAAQ,OAAO,KAAG,MAA2B,CAAA"}

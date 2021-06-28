@@ -1,0 +1,1 @@
+{"version":3,"file":"OwidSource.d.ts","sourceRoot":"","sources":["../../coreTable/OwidSource.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,UAAU;IACvB,EAAE,CAAC,EAAE,MAAM,CAAA;IACX,IAAI,EAAE,MAAM,CAAA;IACZ,eAAe,EAAE,MAAM,CAAA;IACvB,mBAAmB,EAAE,MAAM,CAAA;IAC3B,IAAI,EAAE,MAAM,CAAA;IACZ,aAAa,EAAE,MAAM,CAAA;IACrB,cAAc,EAAE,MAAM,CAAA;CACzB"}

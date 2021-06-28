@@ -1,0 +1,1 @@
+{"version":3,"file":"EditorHistoryTab.d.ts","sourceRoot":"","sources":["../../adminSiteClient/EditorHistoryTab.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAA;AAE9B,OAAO,EAAE,WAAW,EAAE,GAAG,EAAE,MAAM,eAAe,CAAA;AA4ChD,qBACa,gBAAiB,SAAQ,KAAK,CAAC,SAAS,CAAC;IAAE,MAAM,EAAE,WAAW,CAAA;CAAE,CAAC;IAC1E,IAAc,IAAI,UAEjB;IAEmB,WAAW,CAAC,MAAM,EAAE,GAAG;IAY3C,MAAM;CA2BT"}

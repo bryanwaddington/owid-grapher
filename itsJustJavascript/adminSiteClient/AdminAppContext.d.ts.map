@@ -1,0 +1,1 @@
+{"version":3,"file":"AdminAppContext.d.ts","sourceRoot":"","sources":["../../adminSiteClient/AdminAppContext.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAA;AAC9B,OAAO,EAAE,KAAK,EAAE,MAAM,SAAS,CAAA;AAE/B,MAAM,WAAW,mBAAmB;IAChC,KAAK,EAAE,KAAK,CAAA;CACf;AAED,QAAA,MAAM,eAAe,EAAE,KAAK,CAAC,OAAO,CAAC,mBAAmB,CAEhD,CAAA;AACR,OAAO,EAAE,eAAe,EAAE,CAAA"}

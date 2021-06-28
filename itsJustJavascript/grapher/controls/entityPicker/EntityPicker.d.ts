@@ -1,0 +1,55 @@
+import React from "react";
+import { EntityPickerManager } from "./EntityPickerConstants";
+import { SelectionArray } from "../../selection/SelectionArray";
+export declare class EntityPicker extends React.Component<{
+    manager: EntityPickerManager;
+    isDropdownMenu?: boolean;
+}> {
+    private get analyticsNamespace();
+    private searchInput?;
+    private searchInputRef;
+    private focusIndex?;
+    private focusRef;
+    private scrollFocusedIntoViewOnUpdate;
+    private blockOptionHover;
+    private scrollContainerRef;
+    private isOpen;
+    private get isDropdownMenu();
+    private selectEntity;
+    private get manager();
+    private get metric();
+    private get sortOrder();
+    private get pickerColumnDefs();
+    private get metricOptions();
+    private get activePickerMetricColumn();
+    private get availableEntitiesForCurrentView();
+    private get entitiesWithMetricValue();
+    private get grapherTable();
+    private get pickerTable();
+    get selection(): SelectionArray;
+    get selectionSet(): Set<string>;
+    private get fuzzy();
+    private get searchResults();
+    private normalizeFocusIndex;
+    private get focusedOption();
+    private get showDoneButton();
+    private focusOptionDirection;
+    private clearSearchInput;
+    private onKeyDown;
+    private focusSearch;
+    private onSearchFocus;
+    private onSearchBlur;
+    private onHover;
+    private blockHover;
+    private unblockHover;
+    private onMenuMouseDown;
+    private highlightLabel;
+    private get barScale();
+    componentDidMount(): void;
+    componentDidUpdate(): void;
+    private updateMetric;
+    private get isActivePickerColumnTypeNumeric();
+    private get pickerMenu();
+    render(): JSX.Element;
+}
+//# sourceMappingURL=EntityPicker.d.ts.map
