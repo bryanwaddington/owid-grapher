@@ -15,9 +15,9 @@ export const ENV: "development" | "production" =
     process.env.ENV === "production" ? "production" : "development"
 
 export const ADMIN_SERVER_PORT: number =
-    parseIntOrUndefined(process.env.ADMIN_SERVER_PORT) ?? 3030
+    parseIntOrUndefined(process.env.PORT) ?? 3030
 export const ADMIN_SERVER_HOST: string =
-    process.env.ADMIN_SERVER_HOST ?? "localhost"
+    process.env.BIND_IP ?? "localhost"
 export const BAKED_BASE_URL: string =
     process.env.BAKED_BASE_URL ??
     `http://${ADMIN_SERVER_HOST}:${ADMIN_SERVER_PORT}`
