@@ -16,8 +16,8 @@ if (baseDir)
     dotenv_1.default.config({ path: `${baseDir}/.env` });
 const Util_1 = require("../clientUtils/Util");
 exports.ENV = process.env.ENV === "production" ? "production" : "development";
-exports.ADMIN_SERVER_PORT = (_a = Util_1.parseIntOrUndefined(process.env.ADMIN_SERVER_PORT)) !== null && _a !== void 0 ? _a : 3030;
-exports.ADMIN_SERVER_HOST = (_b = process.env.ADMIN_SERVER_HOST) !== null && _b !== void 0 ? _b : "localhost";
+exports.ADMIN_SERVER_PORT = (_a = Util_1.parseIntOrUndefined(process.env.PORT)) !== null && _a !== void 0 ? _a : 3030;
+exports.ADMIN_SERVER_HOST = (_b = process.env.BIND_IP) !== null && _b !== void 0 ? _b : "localhost";
 exports.BAKED_BASE_URL = (_c = process.env.BAKED_BASE_URL) !== null && _c !== void 0 ? _c : `http://${exports.ADMIN_SERVER_HOST}:${exports.ADMIN_SERVER_PORT}`;
 exports.BAKED_GRAPHER_URL = (_d = process.env.BAKED_GRAPHER_URL) !== null && _d !== void 0 ? _d : `${exports.BAKED_BASE_URL}/grapher`;
 exports.ADMIN_BASE_URL = (_e = process.env.ADMIN_BASE_URL) !== null && _e !== void 0 ? _e : `http://${exports.ADMIN_SERVER_HOST}:${exports.ADMIN_SERVER_PORT}`;
