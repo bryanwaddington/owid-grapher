@@ -38,6 +38,10 @@ const Util_1 = require("../clientUtils/Util");
 const serverSettings = (_a = process.env) !== null && _a !== void 0 ? _a : {};
 
 console.log('DB_NAME', serverSettings.DB_NAME);
+console.log('DB_HOST', serverSettings.DB_HOST);
+console.log('DB_USER', serverSettings.DB_USER);
+console.log('DB_PASS', serverSettings.DB_PASS);
+console.log('DB_PORT', serverSettings.DB_PORT);
 
 exports.BASE_DIR = baseDir;
 exports.ENV = clientSettings.ENV;
