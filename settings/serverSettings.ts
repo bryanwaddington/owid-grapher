@@ -42,6 +42,8 @@ export const BLOG_POSTS_PER_PAGE: number =
     parseIntOrUndefined(serverSettings.BLOG_POSTS_PER_PAGE) ?? 21
 export const BLOG_SLUG: string = serverSettings.BLOG_SLUG ?? "blog"
 
+console.log('DB_NAME', serverSettings.DB_NAME);
+
 export const DB_NAME: string = serverSettings.DB_NAME ?? "owid"
 export const DB_USER: string = serverSettings.DB_USER ?? "root"
 export const DB_PASS: string = serverSettings.DB_PASS ?? ""
