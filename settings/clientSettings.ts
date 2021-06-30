@@ -23,7 +23,11 @@ export const BAKED_BASE_URL: string =
     `http://${ADMIN_SERVER_HOST}:${ADMIN_SERVER_PORT}`
 
 // CORE-CHANGE-START
-console.log('clientSettings.ts', ADMIN_SERVER_HOST, ADMIN_SERVER_PORT, ENV);
+console.log('clientSettings.ts logging', ADMIN_SERVER_HOST, ADMIN_SERVER_PORT, ENV);
+console.log('ADMIN_SERVER_HOST', ADMIN_SERVER_HOST);
+console.log('DMIN_SERVER_PORT', ADMIN_SERVER_PORT);
+console.log('ENV', ENV);
+console.log('process.env.BIND_IP', process.env.BIND_IP);
 // CORE-CHANGE-END
 
 export const BAKED_GRAPHER_URL: string =
