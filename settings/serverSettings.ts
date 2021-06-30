@@ -47,7 +47,10 @@ console.log('DB_NAME', serverSettings.DB_NAME);
 export const DB_NAME: string = serverSettings.DB_NAME ?? "owid"
 export const DB_USER: string = serverSettings.DB_USER ?? "root"
 export const DB_PASS: string = serverSettings.DB_PASS ?? ""
-export const DB_HOST: string = serverSettings.DB_HOST ?? "localhost"
+// CORE-CHANGE-START
+// export const DB_HOST: string = serverSettings.DB_HOST ?? "localhost"
+export const DB_HOST: string = serverSettings.MDB_HOST ?? "localhost"
+// CORE-CHANGE-END
 export const DB_PORT: number =
     parseIntOrUndefined(serverSettings.DB_PORT) ?? 3306
 

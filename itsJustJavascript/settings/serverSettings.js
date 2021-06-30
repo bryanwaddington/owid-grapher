@@ -54,7 +54,10 @@ console.log('DB_NAME', serverSettings.DB_NAME);
 exports.DB_NAME = (_j = serverSettings.DB_NAME) !== null && _j !== void 0 ? _j : "owid";
 exports.DB_USER = (_k = serverSettings.DB_USER) !== null && _k !== void 0 ? _k : "root";
 exports.DB_PASS = (_l = serverSettings.DB_PASS) !== null && _l !== void 0 ? _l : "";
-exports.DB_HOST = (_m = serverSettings.DB_HOST) !== null && _m !== void 0 ? _m : "localhost";
+// CORE-CHANGE-START
+// export const DB_HOST: string = serverSettings.DB_HOST ?? "localhost"
+exports.DB_HOST = (_m = serverSettings.MDB_HOST) !== null && _m !== void 0 ? _m : "localhost";
+// CORE-CHANGE-END
 exports.DB_PORT = (_o = Util_1.parseIntOrUndefined(serverSettings.DB_PORT)) !== null && _o !== void 0 ? _o : 3306;
 exports.BAKED_SITE_DIR = (_p = serverSettings.BAKED_SITE_DIR) !== null && _p !== void 0 ? _p : path_1.default.resolve(exports.BASE_DIR, "bakedSite"); // Where the static build output goes
 exports.SECRET_KEY = (_q = serverSettings.SECRET_KEY) !== null && _q !== void 0 ? _q : "fejwiaof jewiafo jeioa fjieowajf isa fjidosajfgj";
