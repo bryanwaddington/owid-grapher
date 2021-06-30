@@ -762,12 +762,12 @@
         "affectsGlobalScope": false
       },
       "../../settings/clientsettings.ts": {
-        "version": "e5d3d27067ec0e9373aa290a30c9bf35d1678b949e1288a8c6b944664b77312e",
+        "version": "6ca0330f14f3aa9526c5b4ea5614fe9791502dab80059b307c5753be56307801",
         "signature": "92ed4b9a4076b30c727b2cafce27a2c6d3344c9a00e743446c6e3f7018527566",
         "affectsGlobalScope": false
       },
       "../../settings/serversettings.ts": {
-        "version": "cf3aa6aac62de1c3558b662cd2cf69a06fb8dc3d5c6a93760417c6a74e1ad051",
+        "version": "eb7d1192f31075db6245cec2ef632e446d6408baeeeaf90341d1ee80d4d1c78d",
         "signature": "8e54ce6bc1905e8a7566c5f646b21698050c215d69da16ec1cc010c558b93506",
         "affectsGlobalScope": false
       },

@@ -50,7 +50,6 @@ exports.GIT_DEFAULT_USERNAME = (_e = serverSettings.GIT_DEFAULT_USERNAME) !== nu
 exports.GIT_DEFAULT_EMAIL = (_f = serverSettings.GIT_DEFAULT_EMAIL) !== null && _f !== void 0 ? _f : "info@ourworldindata.org";
 exports.BLOG_POSTS_PER_PAGE = (_g = Util_1.parseIntOrUndefined(serverSettings.BLOG_POSTS_PER_PAGE)) !== null && _g !== void 0 ? _g : 21;
 exports.BLOG_SLUG = (_h = serverSettings.BLOG_SLUG) !== null && _h !== void 0 ? _h : "blog";
-console.log('DB_NAME', serverSettings.DB_NAME);
 exports.DB_NAME = (_j = serverSettings.DB_NAME) !== null && _j !== void 0 ? _j : "owid";
 exports.DB_USER = (_k = serverSettings.DB_USER) !== null && _k !== void 0 ? _k : "root";
 exports.DB_PASS = (_l = serverSettings.DB_PASS) !== null && _l !== void 0 ? _l : "";
