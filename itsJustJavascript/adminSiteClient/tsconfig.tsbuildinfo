@@ -1827,7 +1827,7 @@
         "affectsGlobalScope": false
       },
       "../../adminsiteclient/chartlist.tsx": {
-        "version": "28e5c0c8275ec08742b2b43c411e878fc2c59d809a6deb599cc77bdec4103d2b",
+        "version": "37c58588ac0fa6dc6bc37f7ed42add23defba46495b74aa833db7adf0fc96011",
         "signature": "440f572ce44e18b01cdebbb8d79f8be14d8c1961f32e409206f392a7573f4948",
         "affectsGlobalScope": false
       },

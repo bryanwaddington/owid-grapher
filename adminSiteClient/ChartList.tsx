@@ -84,6 +84,9 @@ class ChartRow extends React.Component<{
         const { chart, searchHighlight, availableTags } = this.props
 
         const highlight = searchHighlight || lodash.identity
+        // CORE-CHANGE-START
+        console.log('ChartList.tsx.ts-BAKED_GRAPHER_URL', BAKED_GRAPHER_URL);
+        // CORE-CHANGE-END
 
         return (
             <tr>

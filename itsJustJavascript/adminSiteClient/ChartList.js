@@ -83,6 +83,9 @@ let ChartRow = class ChartRow extends React.Component {
         var _a, _b;
         const { chart, searchHighlight, availableTags } = this.props;
         const highlight = searchHighlight || lodash.identity;
+        // CORE-CHANGE-START
+        console.log('ChartList.tsx.ts-BAKED_GRAPHER_URL', clientSettings_1.BAKED_GRAPHER_URL);
+        // CORE-CHANGE-END
         return (React.createElement("tr", null,
             React.createElement("td", { style: { minWidth: "140px", width: "12.5%" } }, chart.isPublished && (React.createElement("a", { href: `${clientSettings_1.BAKED_GRAPHER_URL}/${chart.slug}` },
                 React.createElement("img", { src: `${clientSettings_1.BAKED_GRAPHER_URL}/exports/${chart.slug}.svg`, className: "chartPreview" })))),
