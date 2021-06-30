@@ -2078,7 +2078,6 @@
       "keyofStringsOnly": true,
       "outDir": "./",
       "rootDir": "../../.storybook",
-      "watch": true,
       "configFilePath": "../../.storybook/tsconfig.json"
     },
     "referencedMap": {

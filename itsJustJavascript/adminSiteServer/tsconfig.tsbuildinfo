@@ -4178,7 +4178,6 @@
       "keyofStringsOnly": true,
       "outDir": "./",
       "rootDir": "../../adminSiteServer",
-      "watch": true,
       "configFilePath": "../../adminSiteServer/tsconfig.json"
     },
     "referencedMap": {

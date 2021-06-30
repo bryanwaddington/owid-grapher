@@ -4,8 +4,8 @@ export declare class SearchResults extends React.Component<{
     results: SiteSearchResults;
 }> {
     get bestChartHit(): ChartHit | undefined;
-    get entries(): (CountryHit | ArticleHit)[];
-    get blogposts(): (CountryHit | ArticleHit)[];
+    get entries(): (ArticleHit | CountryHit)[];
+    get blogposts(): (ArticleHit | CountryHit)[];
     get bestChartEntities(): string[];
     get bestChartSlug(): string | undefined;
     render(): JSX.Element;

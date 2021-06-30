@@ -2113,7 +2113,6 @@
       "keyofStringsOnly": true,
       "outDir": "./",
       "rootDir": "../../coreTable",
-      "watch": true,
       "configFilePath": "../../coreTable/tsconfig.json"
     },
     "referencedMap": {

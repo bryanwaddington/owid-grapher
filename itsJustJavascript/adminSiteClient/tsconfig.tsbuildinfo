@@ -3183,7 +3183,6 @@
       "keyofStringsOnly": true,
       "outDir": "./",
       "rootDir": "../../adminSiteClient",
-      "watch": true,
       "configFilePath": "../../adminSiteClient/tsconfig.json"
     },
     "referencedMap": {

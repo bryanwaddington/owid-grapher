@@ -762,12 +762,12 @@
         "affectsGlobalScope": false
       },
       "../../settings/clientsettings.ts": {
-        "version": "d0439b77cd3a0cfe05572ec18d3ed0b8c8d1113b10c6824c80e2b3f6177e359a",
+        "version": "e5d3d27067ec0e9373aa290a30c9bf35d1678b949e1288a8c6b944664b77312e",
         "signature": "92ed4b9a4076b30c727b2cafce27a2c6d3344c9a00e743446c6e3f7018527566",
         "affectsGlobalScope": false
       },
       "../../settings/serversettings.ts": {
-        "version": "56217c080ddb9c4c6d742bb28d5c47c266daa9198f7c97e81e76a0bd9f38d034",
+        "version": "3d4ca055f2d6f0da248c703227cdfff0603b8f02ca155549b80fbae17decd363",
         "signature": "8e54ce6bc1905e8a7566c5f646b21698050c215d69da16ec1cc010c558b93506",
         "affectsGlobalScope": false
       },
@@ -1998,7 +1998,6 @@
       "keyofStringsOnly": true,
       "outDir": "./",
       "rootDir": "../../settings",
-      "watch": true,
       "configFilePath": "../../settings/tsconfig.json"
     },
     "referencedMap": {

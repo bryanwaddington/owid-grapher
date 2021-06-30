@@ -2708,7 +2708,6 @@
       "keyofStringsOnly": true,
       "outDir": "./",
       "rootDir": "../../explorer",
-      "watch": true,
       "configFilePath": "../../explorer/tsconfig.json"
     },
     "referencedMap": {

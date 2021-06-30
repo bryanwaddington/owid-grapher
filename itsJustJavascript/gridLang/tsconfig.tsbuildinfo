@@ -1793,7 +1793,6 @@
       "keyofStringsOnly": true,
       "outDir": "./",
       "rootDir": "../../gridLang",
-      "watch": true,
       "configFilePath": "../../gridLang/tsconfig.json"
     },
     "referencedMap": {

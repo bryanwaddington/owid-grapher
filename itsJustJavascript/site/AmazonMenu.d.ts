@@ -21,7 +21,7 @@ export declare class AmazonMenu extends React.Component<{
     possiblyActivate(submenuId: any): void;
     activate(submenuId: any): void;
     deactivate(submenuId: any): void;
-    activationDelay(): 0 | 400;
+    activationDelay(): 400 | 0;
     onMouseOver(event: React.MouseEvent<HTMLDivElement>): void;
     onClick(event: React.MouseEvent<HTMLDivElement>): void;
     render(): JSX.Element;

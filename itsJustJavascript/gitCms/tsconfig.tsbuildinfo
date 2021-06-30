@@ -1863,7 +1863,6 @@
       "keyofStringsOnly": true,
       "outDir": "./",
       "rootDir": "../../gitCms",
-      "watch": true,
       "configFilePath": "../../gitCms/tsconfig.json"
     },
     "referencedMap": {

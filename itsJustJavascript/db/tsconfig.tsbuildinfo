@@ -3433,7 +3433,6 @@
       "keyofStringsOnly": true,
       "outDir": "./",
       "rootDir": "../../db",
-      "watch": true,
       "configFilePath": "../../db/tsconfig.json"
     },
     "referencedMap": {

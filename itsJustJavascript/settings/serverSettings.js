@@ -36,14 +36,6 @@ dotenv_1.default.config({ path: `${baseDir}/.env` });
 const clientSettings = __importStar(require("./clientSettings"));
 const Util_1 = require("../clientUtils/Util");
 const serverSettings = (_a = process.env) !== null && _a !== void 0 ? _a : {};
-
-console.log('DB_NAME', serverSettings.DB_NAME);
-console.log('DB_HOST', serverSettings.DB_HOST);
-console.log('MDB_HOST', serverSettings.MDB_HOST);
-console.log('DB_USER', serverSettings.DB_USER);
-console.log('DB_PASS', serverSettings.DB_PASS);
-console.log('DB_PORT', serverSettings.DB_PORT);
-
 exports.BASE_DIR = baseDir;
 exports.ENV = clientSettings.ENV;
 exports.ADMIN_SERVER_PORT = clientSettings.ADMIN_SERVER_PORT;
@@ -58,10 +50,11 @@ exports.GIT_DEFAULT_USERNAME = (_e = serverSettings.GIT_DEFAULT_USERNAME) !== nu
 exports.GIT_DEFAULT_EMAIL = (_f = serverSettings.GIT_DEFAULT_EMAIL) !== null && _f !== void 0 ? _f : "info@ourworldindata.org";
 exports.BLOG_POSTS_PER_PAGE = (_g = Util_1.parseIntOrUndefined(serverSettings.BLOG_POSTS_PER_PAGE)) !== null && _g !== void 0 ? _g : 21;
 exports.BLOG_SLUG = (_h = serverSettings.BLOG_SLUG) !== null && _h !== void 0 ? _h : "blog";
+console.log('DB_NAME', serverSettings.DB_NAME);
 exports.DB_NAME = (_j = serverSettings.DB_NAME) !== null && _j !== void 0 ? _j : "owid";
 exports.DB_USER = (_k = serverSettings.DB_USER) !== null && _k !== void 0 ? _k : "root";
 exports.DB_PASS = (_l = serverSettings.DB_PASS) !== null && _l !== void 0 ? _l : "";
-exports.DB_HOST = (_m = serverSettings.MDB_HOST) !== null && _m !== void 0 ? _m : "localhost";
+exports.DB_HOST = (_m = serverSettings.DB_HOST) !== null && _m !== void 0 ? _m : "localhost";
 exports.DB_PORT = (_o = Util_1.parseIntOrUndefined(serverSettings.DB_PORT)) !== null && _o !== void 0 ? _o : 3306;
 exports.BAKED_SITE_DIR = (_p = serverSettings.BAKED_SITE_DIR) !== null && _p !== void 0 ? _p : path_1.default.resolve(exports.BASE_DIR, "bakedSite"); // Where the static build output goes
 exports.SECRET_KEY = (_q = serverSettings.SECRET_KEY) !== null && _q !== void 0 ? _q : "fejwiaof jewiafo jeioa fjieowajf isa fjidosajfgj";

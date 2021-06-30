@@ -4043,7 +4043,6 @@
       "keyofStringsOnly": true,
       "outDir": "./",
       "rootDir": "../../explorerAdmin",
-      "watch": true,
       "configFilePath": "../../explorerAdmin/tsconfig.json"
     },
     "referencedMap": {

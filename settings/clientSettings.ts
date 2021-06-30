@@ -22,6 +22,10 @@ export const BAKED_BASE_URL: string =
     process.env.BAKED_BASE_URL ??
     `http://${ADMIN_SERVER_HOST}:${ADMIN_SERVER_PORT}`
 
+// CORE-CHANGE-START
+console.log('clientSettings.ts', ADMIN_SERVER_HOST, ADMIN_SERVER_PORT, ENV);
+// CORE-CHANGE-END
+
 export const BAKED_GRAPHER_URL: string =
     process.env.BAKED_GRAPHER_URL ?? `${BAKED_BASE_URL}/grapher`
 export const ADMIN_BASE_URL: string =

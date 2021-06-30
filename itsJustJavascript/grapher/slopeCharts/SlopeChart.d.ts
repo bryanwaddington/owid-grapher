@@ -46,7 +46,7 @@ export declare class SlopeChart extends React.Component<{
     render(): JSX.Element;
     get legendY(): number;
     get legendX(): number;
-    get failMessage(): "" | "Missing Y column" | "No matching data";
+    get failMessage(): "" | "No matching data" | "Missing Y column";
     colorScale: ColorScale;
     get colorScaleConfig(): import("../color/ColorScaleConfig").ColorScaleConfigDefaults | undefined;
     get colorScaleColumn(): CoreColumn;

@@ -1858,7 +1858,7 @@
       },
       "../../grapher/slopecharts/slopechart.tsx": {
         "version": "460c267fa87951a74a968fb5db38a400944bc69c25aeec81fcf55571ce83d72c",
-        "signature": "5f00b5865c05719ba8c88bf85441faa6c6b53787c054cfa40c91eea2beaf4b51",
+        "signature": "1c85abeabb1af7f808e4b0791fb9d133445f4c445c22a6782f38d0b56418b970",
         "affectsGlobalScope": false
       },
       "../../grapher/linecharts/linechartutils.ts": {
@@ -4338,7 +4338,6 @@
       "keyofStringsOnly": true,
       "outDir": "./",
       "rootDir": "../../grapher",
-      "watch": true,
       "configFilePath": "../../grapher/tsconfig.json"
     },
     "referencedMap": {
