@@ -20,7 +20,7 @@ exports.ADMIN_SERVER_PORT = (_a = Util_1.parseIntOrUndefined(process.env.PORT)) 
 exports.ADMIN_SERVER_HOST = (_b = process.env.BIND_IP) !== null && _b !== void 0 ? _b : "localhost";
 exports.BAKED_BASE_URL = (_c = process.env.BAKED_BASE_URL) !== null && _c !== void 0 ? _c : `http://${exports.ADMIN_SERVER_HOST}:${exports.ADMIN_SERVER_PORT}`;
 // CORE-CHANGE-START
-console.log('clientSettings.ts logging', exports.ADMIN_SERVER_HOST, exports.ADMIN_SERVER_PORT, exports.ENV);
+console.log('clientSettings.ts logging');
 console.log('ADMIN_SERVER_HOST', exports.ADMIN_SERVER_HOST);
 console.log('DMIN_SERVER_PORT', exports.ADMIN_SERVER_PORT);
 console.log('ENV', exports.ENV);

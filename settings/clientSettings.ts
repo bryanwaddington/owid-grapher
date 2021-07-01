@@ -23,18 +23,18 @@ export const BAKED_BASE_URL: string =
     `http://${ADMIN_SERVER_HOST}:${ADMIN_SERVER_PORT}`
 
 // CORE-CHANGE-START
-console.log('clientSettings.ts logging', ADMIN_SERVER_HOST, ADMIN_SERVER_PORT, ENV);
+console.log('clientSettings.ts logging');
 console.log('ADMIN_SERVER_HOST', ADMIN_SERVER_HOST);
 console.log('DMIN_SERVER_PORT', ADMIN_SERVER_PORT);
 console.log('ENV', ENV);
 console.log('process.env.BIND_IP', process.env.BIND_IP);
+console.log('process.env.BAKED_GRAPHER_URL', process.env.BAKED_GRAPHER_URL);
 // CORE-CHANGE-END
 
 export const BAKED_GRAPHER_URL: string =
     process.env.BAKED_GRAPHER_URL ?? `${BAKED_BASE_URL}/grapher`
 // CORE-CHANGE-START
 console.log('clientSettings.ts-BAKED_GRAPHER_URL', BAKED_GRAPHER_URL);
-console.log('clientSettings.ts-process.env.BAKED_GRAPHER_URL', process.env.BAKED_GRAPHER_URL);
 // CORE-CHANGE-END
 export const ADMIN_BASE_URL: string =
     process.env.ADMIN_BASE_URL ??
