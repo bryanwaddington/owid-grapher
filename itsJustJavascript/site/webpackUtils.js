@@ -30,6 +30,9 @@ const path = __importStar(require("path"));
 const serverSettings_1 = require("../settings/serverSettings");
 const WEBPACK_DEV_URL = (_a = process.env.WEBPACK_DEV_URL) !== null && _a !== void 0 ? _a : "http://localhost:8090";
 const WEBPACK_OUTPUT_PATH = (_b = process.env.WEBPACK_OUTPUT_PATH) !== null && _b !== void 0 ? _b : path.join(__dirname + "/../", "webpack");
+// CORE-CHANGE-START
+console.log('WEBPACK_OUTPUT_PATH', WEBPACK_OUTPUT_PATH);
+// CORE-CHANGE-END
 let manifest;
 const webpackUrl = (assetName, baseUrl = "", isProduction = serverSettings_1.ENV === "production") => {
     if (isProduction) {

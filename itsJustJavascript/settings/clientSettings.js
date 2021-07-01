@@ -29,6 +29,7 @@ console.log('process.env.BIND_IP', process.env.BIND_IP);
 exports.BAKED_GRAPHER_URL = (_d = process.env.BAKED_GRAPHER_URL) !== null && _d !== void 0 ? _d : `${exports.BAKED_BASE_URL}/grapher`;
 // CORE-CHANGE-START
 console.log('clientSettings.ts-BAKED_GRAPHER_URL', exports.BAKED_GRAPHER_URL);
+console.log('clientSettings.ts-process.env.BAKED_GRAPHER_URL', process.env.BAKED_GRAPHER_URL);
 // CORE-CHANGE-END
 exports.ADMIN_BASE_URL = (_e = process.env.ADMIN_BASE_URL) !== null && _e !== void 0 ? _e : `http://${exports.ADMIN_SERVER_HOST}:${exports.ADMIN_SERVER_PORT}`;
 exports.WORDPRESS_URL = (_f = process.env.WORDPRESS_URL) !== null && _f !== void 0 ? _f : "";
