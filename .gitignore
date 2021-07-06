@@ -8,7 +8,7 @@ yarn-error.log
 .vscode/tags
 .awcache
 data
-#itsJustJavascript/
+itsJustJavascript/
 .netlify
 *.swp
 datasetsExport
