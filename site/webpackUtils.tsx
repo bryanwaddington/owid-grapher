@@ -7,10 +7,6 @@ const WEBPACK_DEV_URL = process.env.WEBPACK_DEV_URL ?? "http://localhost:8090"
 const WEBPACK_OUTPUT_PATH =
     process.env.WEBPACK_OUTPUT_PATH ?? path.join(__dirname + "/../", "webpack")
 
-// CORE-CHANGE-START
-console.log('WEBPACK_OUTPUT_PATH', WEBPACK_OUTPUT_PATH);
-// CORE-CHANGE-END
-
 let manifest: { [key: string]: string }
 export const webpackUrl = (
     assetName: string,
@@ -31,6 +27,11 @@ export const webpackUrl = (
         else return urljoin("/", "assets", manifest[assetName])
     }
 
+// CORE-CHANGE-START
+    console.log('WEBPACK_DEV_URL:', WEBPACK_DEV_URL);
+    console.log('assetName:', assetName);
+    console.log('urlJoin;', urljoin(WEBPACK_DEV_URL, assetName));
+// CORE-CHANGE-END
     return urljoin(WEBPACK_DEV_URL, assetName)
 }
 
