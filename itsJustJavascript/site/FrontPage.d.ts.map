@@ -1,1 +1,0 @@
-{"version":3,"file":"FrontPage.d.ts","sourceRoot":"","sources":["../../site/FrontPage.tsx"],"names":[],"mappings":";AAgBA,OAAO,EACH,mBAAmB,EAEnB,QAAQ,EACX,MAAM,0BAA0B,CAAA;AAWjC,eAAO,MAAM,SAAS,UAAW;IAC7B,OAAO,EAAE,mBAAmB,EAAE,CAAA;IAC9B,KAAK,EAAE,QAAQ,EAAE,CAAA;IACjB,WAAW,EAAE,MAAM,CAAA;IACnB,OAAO,EAAE,MAAM,CAAA;CAClB,gBA6WA,CAAA"}

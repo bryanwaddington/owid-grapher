@@ -1,1 +1,0 @@
-{"version":3,"file":"PointVector.test.js","sourceRoot":"","sources":["../../clientUtils/PointVector.test.ts"],"names":[],"mappings":";;;AAEA,+CAA2C;AAE3C,EAAE,CAAC,uBAAuB,EAAE,GAAG,EAAE;IAC7B,MAAM,KAAK,GAAG,IAAI,yBAAW,CAAC,CAAC,EAAE,CAAC,CAAC,CAAA;IACnC,MAAM,CAAC,KAAK,CAAC,SAAS,CAAC,CAAC,OAAO,CAAC,EAAE,CAAC,CAAA;AACvC,CAAC,CAAC,CAAA"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"ChartTypeSwitcher.d.ts","sourceRoot":"","sources":["../../../grapher/chart/ChartTypeSwitcher.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAA;AACzB,OAAO,EAAE,aAAa,EAAE,MAAM,0BAA0B,CAAA;AAGxD,qBAAa,iBAAkB,SAAQ,KAAK,CAAC,SAAS,CAAC;IACnD,QAAQ,EAAE,CAAC,SAAS,EAAE,aAAa,KAAK,IAAI,CAAA;CAC/C,CAAC;IACE,MAAM,IAAI,GAAG,CAAC,OAAO;CAexB"}
